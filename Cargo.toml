@@ -14,7 +14,7 @@ travis-ci = { repository = "michaelfairley/rust-imgui-sdl2" }
 
 [dependencies]
 imgui = "0.7"
-sdl2 = "0.34"
+sdl2 = { git = "https://github.com/JustAGod1/rust-sdl2.git", features = ["bundled"] }
 
 [dev-dependencies]
 gl = "0.10.0"
